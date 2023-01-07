@@ -31,13 +31,4 @@ public class AppInit extends AbstractAnnotationConfigDispatcherServletInitialize
         return new String[]{"/"};
     }
 
-    public static List<Car> carList() {
-        List<Car> cars = new ArrayList<>();
-        cars.add(new Car("toyota", "red", 1111));
-        cars.add(new Car("honda", "black", 2222));
-        cars.add(new Car("subaru", "blue", 3333));
-        cars.add(new Car("uaz", "green", 4444));
-        cars.add(new Car("bmw", "white", 5555));
-        return cars;
-    }
 }
